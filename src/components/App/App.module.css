@@ -1,0 +1,79 @@
+/* App */
+
+.app {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.app > * {
+  margin: 0px 0px 20px 0px;
+}
+
+/* Screenshot */
+
+.take-screenshot {
+  padding: 5px;
+  height: fit-content;
+}
+
+/* Controls */
+
+.controls {
+  margin-top: 5px;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+}
+
+.controls-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.controls-row:last-child {
+  margin-bottom: 0;
+}
+
+.controls-label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.controls-label-text {
+  font-size: .8rem;
+}
+
+.controls-text-input {
+  padding: 4px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+}
+
+/* Button */
+
+.button {
+  border: none;
+  background-color: #0af;;
+  border-radius: 4px;
+  padding: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+a.button {
+  line-height: 1rem;
+  text-decoration: none;
+  height: 100%;
+}
+
+.button:hover {
+  background-color: #009cf0;
+}
+
+.html {
+  word-break: break-all;
+}
